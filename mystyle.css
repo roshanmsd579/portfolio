@@ -1,0 +1,269 @@
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: rgb(0, 0, 33);
+			color: white;
+			font-family: 'Poppins', sans-serif;
+		}
+		/* header{
+			position: sticky;
+			top:0px;
+		} */
+
+		nav {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 90px;
+			background-color: rgb(108, 46, 114);
+		}
+
+		nav ul {
+			display: flex;
+			justify-content: center;
+		}
+
+		nav ul li {
+			list-style: none;
+			margin: 0 23px;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		nav ul li a:hover {
+			color: rgb(153, 153, 226);
+			font-size: 1.03rem;
+		}
+
+		main hr {
+			border: 0;
+			background: #9c97f1;
+			height: 1.2px;
+			margin: 60px 84px;
+		}
+
+		.left {
+			font-size: 2rem;
+		}
+
+		.firstsection {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			margin: 130px 0;
+			background-image: url(pic1.jpg);
+			background-size: 100% 100%;
+			/* opacity: 0.5; */
+			animation-name: slider;
+			animation-duration: 6s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes slider {
+			0% {
+				background-image: url("pic1.jpg");
+			}
+
+			35% {
+				background-image: url("pic4.jpg");
+			}
+
+			75% {
+				background-image: url("pic3.jpg");
+			}
+
+		}
+		
+
+		.firstsection>div {
+			width: 30%;
+		}
+
+		.leftsection {
+			font-size: 2.5rem;
+			
+		}
+
+		.rightsection img {
+			width: 80%;
+			margin: 50px;
+
+		}
+
+		.purple {
+			color: rgb(147, 233, 67);
+		}
+
+		.text-gray {
+			color: gray;
+		}
+
+		#element {
+			color: rgb(178, 107, 228);
+		}
+
+		.secondsecton {
+			max-width: 80vw;
+			margin: auto;
+			height: 80vh;
+		}
+
+		.secondsecton h1 {
+			font-size: 1.9rem;
+		}
+
+		.secondsecton .box {
+			background: white;
+			width: 77vm;
+			height: 2px;
+			margin: 56px 0;
+			display: flex;
+		}
+
+		.secondsecton .vertical {
+			height: 93px;
+			width: 1px;
+			background-color: white;
+			margin: 0 110px;
+		}
+
+		.image-top {
+			width: 23px;
+			position: relative;
+			top: -32px;
+			left: -9px;
+		}
+
+		.vertical-title {
+			position: relative;
+			top: 75px;
+			width: 150px;
+			font-size: 14px;
+		}
+
+		.vertical-dsc {
+			position: relative;
+			top: 86px;
+			color: gray;
+			width: 150px;
+			font-size: 9px;
+		}
+
+		footer {
+			background-color: rgb(108, 46, 114);
+			;
+		
+		}
+
+		.footer {
+			/* display: flex; */
+			padding: 23px 300px;
+			justify-content: space-evenly;
+		}
+
+		.footer ul {
+			list-style: none;
+		}
+
+		/* .footer>div {
+			width: 233px;
+		} */
+
+		footer .footer-rights {
+			text-align: center;
+			color: gray;
+			padding: 12px;
+		}
+
+		.leftsection .buttons {
+			padding: 50px 0;
+		}
+
+		.leftsection .btn {
+			padding: 12px;
+			background: #1e2167;
+			color: white;
+			border: 2px solid white;
+			border-radius: 6px;
+			font-size: 20px;
+			cursor: pointer;
+		}
+		.thirdsection{
+			height:80vh;
+			display: flex;
+			justify-content: space-around;
+			max-width: 80vw;
+			margin: auto;
+		}
+		.thirdsection h1{
+			font-size: 1.9rem;
+			margin: 10px 0;
+		}
+		.imagesec{
+			border: 3px solid white;
+			margin: 50px 0 ;
+
+		}
+		.disc{
+			margin: 50px 0;
+		}
+		.disc p{
+			padding: 70px;
+			font-size: 20px;
+		}
+		.left .headbox{
+			background-image: url(logo.png);
+			background-size: 100% 100%;
+			height: 90px;
+			width: 200px; 
+		}
+		.pic {
+			width:340px;
+			height:390px;
+		}
+		/* .left .headbox img{
+			width: 200px;
+			height: 90px;
+			
+		} */
+		.fourthsection{
+			display: flex;
+			max-width: 80vw;
+			margin: auto;
+			height: 80vh;
+		}
+		.contsec{
+			margin-right: 30%;
+		}
+		.fourthsection .contsec h1{
+			font-size: 1.9rem;
+		}
+		.fourthsection .forms{
+			padding-top: 10px;
+		}
+		.fourthsection .forms label,input{
+			margin: 10px 10px;
+			font-size: 1.5rem;
+			/* padding: 20px; */
+		}
+		.fourthsection .forms textarea{
+			width: 300px;
+			height: 130px;
+			border-radius: 10px;
+			font-size: 1.5rem;
+			padding: 10px;
+		}
+		.fourthsection .forms input{
+			border-radius: 8px;
+		}
+		.fourthsection .forms input[type]{
+			padding: 10px;
+		}
+	
